@@ -16,6 +16,7 @@ namespace Microsoft.eShopWeb.Web.Controllers.Api
 
         private readonly IStringLocalizer<CatalogController> _localizer;
 
+
         public CatalogController(IStringLocalizer<CatalogController> localizer)
         {
             _localizer = localizer;
